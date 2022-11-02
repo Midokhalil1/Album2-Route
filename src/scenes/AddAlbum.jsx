@@ -1,7 +1,12 @@
+
+import Header from '../components/Header'
+import NewAlbumForm from '../components/NewAlbumForm'
 export default function AddAlbum() {
     return (
         <>
-            <h1>Add Album Title goes here</h1>
+            <Header title={'Add New Album '} />
+            <NewAlbumForm />
+
             <p> New Album card goes here </p>
 
         </>
