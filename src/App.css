@@ -1,31 +1,45 @@
+:root {
+  --rosy-red: #ff000030;
+  --hot--red: red;
+  --light-brown: #605040
+}
+
+
+
 .App {
   text-align: center;
 }
 
 .header {
-  border: 2px solid red;
+  border: 2px solid var(--hot--red);
   margin: calc(1rem 1vw);
-  background-color: #ff000030;
+  background-color: var(--rosy-red);
 }
 
 .album-list {
   border: 2px solid gold;
   margin: calc(1rem + 1vw);
-  background-color: #ff000030;
+  background-color: var(--rosy-red);
+  font-size: var(--rosy-red);
 }
 
 .album-card {
   border: 2px solid grey;
   margin: 1rem;
-  background-color: #eee;
+  background-color: var(--rosy-red);
 }
 
 .album-title {
   text-decoration: uppercase;
-  color: #605040;
+  color: var(--light-brown)
 }
 
 a {
   text-decoration: none;
   color: inherit
+}
+
+button {
+  background-color: aquamarine;
+
 }

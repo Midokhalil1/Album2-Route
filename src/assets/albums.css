@@ -1,0 +1,30 @@
+.album-list {
+    border: 2px solid gold;
+    margin: calc(1rem + 1vw);
+    background-color: var(--rosy-red);
+    font-size: var(--rosy-red);
+}
+
+.album-card {
+    border: 2px solid rgb(180, 76, 76);
+    margin: 1rem;
+    background-color: var(--rosy-red);
+    background-color: rgb(77, 136, 104);
+    flex: inherit;
+    flex-grow: initial;
+}
+
+.album-title {
+    text-decoration: uppercase;
+    color: var(--light-brown);
+    background-color: rgb(124, 120, 128);
+    flex-flow: row-reverse;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: rgb(156, 145, 167);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
